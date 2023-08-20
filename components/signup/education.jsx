@@ -1,9 +1,9 @@
 import React from 'react'
-import EducationCard from '@/components/EducationCards'
-import Button from '@/components/Button'
-import InputField from '@/components/InputField'
-import TextArea from '@/components/TextArea'
-import SignupFooter from '@/components/SignupFooter'
+import EducationCard from '@/components/elements/EducationCards'
+import Button from '@/components/elements/Button'
+import InputField from '@/components/elements/InputField'
+import TextArea from '@/components/elements/TextArea'
+import SignupFooter from '@/components/elements/SignupFooter'
 
 export default function Education() {
   return (

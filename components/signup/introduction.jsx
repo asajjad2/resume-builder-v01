@@ -1,8 +1,8 @@
 import React from 'react'
-import InputField from '@/components/InputField'
-import TextArea from '@/components/TextArea'
-import Button from '@/components/Button'
-import SignupFooter from '@/components/SignupFooter'
+import InputField from '@/components/elements/InputField'
+import TextArea from '@/components/elements/TextArea'
+import Button from '@/components/elements/Button'
+import SignupFooter from '@/components/elements/SignupFooter'
 
 
 export default function Introduction() {

@@ -1,4 +1,3 @@
-import Introduction from '@/pages/signup/introduction'
 import React from 'react'
 import Stepper from './Stepper'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import Input from '@/components/Input'
+import Input from './Input'
 import { useState } from 'react'
 
 export default function inputField({ placeholder, onChange, name, disabled, onHelpClick, label, hint, cc, icon }) {

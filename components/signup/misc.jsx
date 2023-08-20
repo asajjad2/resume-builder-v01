@@ -1,6 +1,6 @@
 import React from 'react'
-import Button from '@/components/Button'
-import InputField from '@/components/InputField'
+import Button from '@/components/elements/Button'
+import InputField from '@/components/elements/InputField'
 
 export default function Misc() {
   return (

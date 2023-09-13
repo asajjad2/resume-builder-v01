@@ -9,7 +9,7 @@ import Education from '@/components/signup/education';
 import Misc from '@/components/signup/misc';
 import Stepper from '@/components/signup/stepper'; 
 
-const steps=['Introduction', 'Experience', 'Skills', 'Education', 'Misc'];
+const steps=['Introduction', 'Experience', 'Skills', 'Education', 'Finalizing'];
 
 export default function SignUp(){
 
@@ -19,6 +19,7 @@ export default function SignUp(){
 
     useEffect(() => {
         router.push(`/signup?step=${step}`, undefined, { shallow: true });
+        console.log(step)
     }, [step]);
 
     const onPrev = () => {
@@ -28,7 +29,7 @@ export default function SignUp(){
     }
 
     const onNext = () => {
-        if(step < steps.length - 1) {
+        if(step < steps.length + 1) {
             setStep(step + 1);
         }
     }

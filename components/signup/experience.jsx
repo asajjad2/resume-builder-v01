@@ -4,10 +4,15 @@ import Button from '@/components/elements/Button'
 import InputField from '@/components/elements/InputField'
 import TextArea from '@/components/elements/TextArea'
 import SignupFooter from '@/components/elements/SignupFooter'
+import Dropdown from '@/components/elements/Dropdown'
+
 
 export default function Experience() {
   return (
     <div className='w-screen min-h-screen px-20 pt-10 mb-2 flex flex-col gap-8 bg-white '>
+
+      <Dropdown/>
+
 
         <div id="headings" className='flex flex-col gap-4'>
           <h2 className='text-display-md font-bold text-gray-800 font-pd'>Work Experience</h2>

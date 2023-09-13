@@ -24,8 +24,8 @@ export default function Home({ onNext }) {
                             <InputField placeholder='Enter password' label='Password' />
                         </div>
                         <div id="btns" className='flex flex-col gap-4'>
-                            <Button variant={'primary'} size={'md'} onClick={onNext}>Create my account</Button>
-                            <Button variant={'secondary'} size={'md'}>
+                            <Button variant={'primary'} size={'md'} onClick={onNext} isFull>Create my account</Button>
+                            <Button variant={'secondary'} size={'md'} isFull>
                                 <div className='flex gap-4'>
                                     <Image src={Google}/>
                                     Sign up with Google
@@ -42,7 +42,7 @@ export default function Home({ onNext }) {
         <div className="bg-blue-gray-100 w-[61%] flex justify-center">
             <div className='w-[576px] flex flex-col gap-6 pt-[32.6%] '>
                 <div id="text" className='text-text-xl font-semibold text-gray-800'>
-                    “This is the new era of building resumes, we’ve been told to create resumes again and again everytime we are applying for a different position. This will end that misery once and for all!”
+                    “This is the new era of building resumes, we've been told to create resumes again and again everytime we are applying for a different position. This will end that misery once and for all!”
                 </div>
                 <div id="icons" className='flex justify-between items-center '>
                     <div className='flex gap-4'>
